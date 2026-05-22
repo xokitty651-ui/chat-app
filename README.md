@@ -27,4 +27,4 @@ Soft Talks demonstrates the practical implementation of WebSocket-based communic
 Overall, Soft Talks is a lightweight, user-friendly, and responsive real-time messaging application suitable for learning modern web development and real-time communication concepts.
 
 #output:
-
+<img width="958" height="1151" alt="Image" src="https://github.com/user-attachments/assets/dad74e6a-31c4-483f-bd0e-5c8e12254555" />
