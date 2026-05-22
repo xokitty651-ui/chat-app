@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Let's connect</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="chat-container">
+
+    <!-- Header -->
+    <div class="chat-header">
+        <h2>☁ soft talks...</h2>
+        <p>soft conversations & cozy vibes</p>
+    </div>
+
+    <!-- Messages -->
+    <ul id="messages"></ul>
+
+    <!-- Emoji Picker -->
+    <div id="emojiPicker" class="emoji-picker"></div>
+
+    <!-- Input Area -->
+    <div class="chat-input">
+
+        <!-- Emoji Button -->
+        <button id="emojiBtn">😊</button>
+
+        <!-- Message Input -->
+        <input 
+            type="text"
+            id="messageInput"
+            placeholder="Type a message..."
+        >
+
+        <!-- Send Button -->
+        <button id="sendBtn">Send</button>
+
+    </div>
+
+</div>
+
+<!-- Socket.IO -->
+<script src="/socket.io/socket.io.js"></script>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
